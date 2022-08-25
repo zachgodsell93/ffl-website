@@ -1,0 +1,25 @@
+hr {
+    font-family: Arial, sans-serif; /* choose the font you like */
+    text-align: center; /* horizontal centering */
+    line-height: 1px; /* vertical centering */
+    height: 1px; /* gap between the lines */
+    font-size: 1em; /* choose font size you like */
+    border-top: 2px solid black;
+    margin: 20px 10px; /* 20px space above/below, 10px left/right */
+    overflow: visible;
+
+    /* ensure 1px gap between borders */
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+hr:after {
+    content: url('../assets/divider-arrow.jpg'); /* section sign */
+    color: #999;
+    display: inline; /* for vertical centering and background knockout */
+    padding: 0 0.5em;
+
+}

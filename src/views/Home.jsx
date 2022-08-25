@@ -1,12 +1,15 @@
 import React from 'react'
 import { Container } from '@mui/material'
-import { Navigation } from '../components/Navigation'
+import { HeroSection } from '../components/home/HeroSection'
+import { PageDivider } from '../components/PageDivider'
+
+
+
 export const Home = () => {
     return (
-        <>
-        
-            <Navigation />
-        
-        </>
+        <Container fluid maxWidth='xl'>
+            <HeroSection />
+            <PageDivider />
+        </Container>
     )
 }
