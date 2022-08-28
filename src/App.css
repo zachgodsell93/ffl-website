@@ -3,6 +3,11 @@ body {
   
 }
 
+h2 {
+  font-size: 48px;
+  font-weight:bolder;
+}
+
 h5 {
   font-size: 18px;
 }
